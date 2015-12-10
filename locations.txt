@@ -1,7 +1,7 @@
 Crusoe:
 	1632	:	York	[Birth]
 	1651	:	London	[Boards Ship]
-	1651	:	Yarmouth	[Encounters a storm and is warned not to travel]
+!	1651	:	Yarmouth	[Encounters a storm and is warned not to travel]
 	1653	:	Sallee	[Encounter with pirates and forced into slavery]
 	1655	:	150 Miles South of Sallee	[Is picked up by Portugese Captain]
 	1656	:	Brazil	[Lands in Brazil and opens plantation]

@@ -7,18 +7,14 @@
   <link rel="stylesheet" href="resources/jquery-jvectormap-2.0.3.css" type="text/css" media="screen"/>
 </head>
 <body align="center">
-  <!--<div id="world-map" style="width: 1200px; height: 800px"></div>
-  <script>
-    $(function(){
-      $('#world-map').vectorMap();
-    });
-  </script>-->
-  <div id="world-map-markers" style="width: 900px; height: 600px"></div>
-  <div id="target">
-    <div class="btn-group" role="group">
-      <button type="button" class="btn btn-default">Make Shit Happen</button>
-    </div>
+  <div id="map" style="width: 900px; height: 600px"></div>
+  <div class="btn-group" role="group" aria-label="...">
+    <button id="crusoe" type="button" class="btn btn-default">Crusoe</button>
+    <button id="candide" type="button" class="btn btn-default">Candide</button>
+    <button id="equiano" type="button" class="btn btn-default">Equiano</button>
   </div>
+
+  <div id="info"></div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="resources/bootstrap/js/bootstrap.min.js"></script>
