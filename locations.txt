@@ -1,0 +1,49 @@
+Equiano:
+	1745	:	Eboe (Nigeria)	[Born]
+	1756	:	Virginia / The Atlantic Ocean	[Time Enslaved / Given new name]
+	1757	:	England
+	1757	:	Holland
+	1758	:	Scotland
+	1759	:	Gibraltar
+	1760	:	Nova Scotia
+	1761	:	The Caribbean
+	1762	:	Pennsylvania
+	1763	:	Georgia
+	1763	:	South Carolina
+	1763	:	Philadelphia	[Purchased by Robert King]
+	1766	:	[Purchases Freedom]
+	1767	:	England	[Working for Dr. Charles Irving]
+	1767	:	Turkey
+	1768	:	Portugal
+	1769	:	Italy
+	1770	:	Jamaica
+	1771	:	Grenada
+	1772	:	North America
+	1773	:	Northeast Atlantic	[Tries to find passage tfrom Europe to Asia]
+	1789	:	BOOK IS PUBLISHED
+	1792	:	England	[Marries Susanna Cullen]
+	1797	:	London	[Death]
+
+Candide:
+	1754	:	Westphalia (Osnabruck)	[Candide is kicked out of the kingdom]
+	1754	:	Holland	[Jacques takes in Candide and they find Pangloss]
+	1755	:	Lisbon	[Earthquake]
+	1755-56	:	Cadiz	[Candide and Cunegonde decide to hit the seas]
+	1756	:	Buenos Aires [Don Fernando d’Ibaraa y Figueora y Mascarenes y Lampourdos y Souza]
+	1757	:	Meta River
+	1757	:	The Quest for El Dorado (Bogota)
+	1758	:	Surinam	(Suriname)	[Vanderdendur steals Candide's fortune]
+	1759	:	Atlantic Ocean (towards Bordeaux)	[Vanderdendur's defeat at sea]
+	1759	:	Coast of France	[Martin claims the world was made "to make us mad"]
+	1759	:	BOOK IS PUBLISHED
+	1760	:	Paris	[Candide falls sick, and is swindled by a priest]
+	1761	:	Coast of England	[Candide refuses to enter England]
+	1762	:	Venice	[Candide can't find Cunegonde and Cacambo]
+	1763	:	Constantinople	(Istanbul)	[Candide purchases the old woman and Cunegonde]
+
+The Island of the Slaves:
+	????	:	Athens	[Entire story takes place]
+	1725	:	BOOK IS PUBLISHED
+
+A Vindication of the Rights of Woman:
+	1792	:	BOOK IS PUBLISHED
