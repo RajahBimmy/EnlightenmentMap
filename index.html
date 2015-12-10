@@ -5,17 +5,21 @@
   <link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="resources/bootstrap/css/bootstrap-theme.min.css" type="text/css" />
   <link rel="stylesheet" href="resources/jquery-jvectormap-2.0.3.css" type="text/css" media="screen"/>
+  <link rel="stylesheet" href="custom.css" type="text/css" />
 </head>
-<body align="center">
-  <div id="map" style="width: 900px; height: 600px"></div>
+<body>
+
+  <div class="row">
+    <div id="map" style="width: 900px; height: 600px" class="col-md-2"></div>
+    <div id="info" class="col-md-3"></div>
+  </div>
+
   <div class="btn-group" role="group" aria-label="...">
     <button id="crusoe" type="button" class="btn btn-default">Crusoe</button>
     <button id="candide" type="button" class="btn btn-default">Candide</button>
     <button id="equiano" type="button" class="btn btn-default">Equiano</button>
   </div>
-
-  <div id="info"></div>
-
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="resources/bootstrap/js/bootstrap.min.js"></script>
   <script src="resources/jquery-jvectormap-2.0.3.min.js"></script>
