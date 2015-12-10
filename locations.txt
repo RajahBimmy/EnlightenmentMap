@@ -1,3 +1,20 @@
+Crusoe:
+	1632	:	York	[Birth]
+	1651	:	London	[Boards Ship]
+	1651	:	Yarmouth	[Encounters a storm and is warned not to travel]
+	1653	:	Sallee	[Encounter with pirates and forced into slavery]
+	1655	:	150 Miles South of Sallee	[Is picked up by Portugese Captain]
+	1656	:	Brazil	[Lands in Brazil and opens plantation]
+	1659	:	Atlantic Coast	[Sets sail for Guinea]
+	1659	:	The Island	[Shipwrecked]
+	1661	:	Spanish Island Adjacent to the Island	[Crusoe surveys the island]
+	1686	:	The Island 	[Escapes the Island]
+	1687	:	Lisbon	[Reunited with the Portugese Captain]
+	1687	:	Pampeluna (Pampelona)
+	1687	:	Toulouse, France	[Wolves encounter]
+	1688	:	Dover, England
+	1694	:	The Island 	[Re-visits to catch up]
+
 Equiano:
 	1745	:	Eboe (Nigeria)	[Born]
 	1756	:	Virginia / The Atlantic Ocean	[Time Enslaved / Given new name]
@@ -25,7 +42,7 @@ Equiano:
 	1797	:	London	[Death]
 
 Candide:
-	1754	:	Westphalia (Osnabruck)	[Candide is kicked out of the kingdom]
+	1753	:	Westphalia (Osnabruck)	[Candide is kicked out of the kingdom]
 	1754	:	Holland	[Jacques takes in Candide and they find Pangloss]
 	1755	:	Lisbon	[Earthquake]
 	1755-56	:	Cadiz	[Candide and Cunegonde decide to hit the seas]
