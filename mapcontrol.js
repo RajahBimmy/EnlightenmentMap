@@ -1,8 +1,11 @@
-// South and West are Negative
+/**
+* Script and coordinates written by Dennis McDaid, @RajahBimmy in 2015
+*/
 $(document).ready(function(){
   var map;
 
   // Current index and global array of markers to keep pace with the one local to the map.
+  // Be aware that South and West coordinates are mapped in negative values.
   var index = 0;
   var globalMarkers = [];
 
@@ -90,7 +93,7 @@ $(document).ready(function(){
         info: "<h1>Virginia, 1756</h1><h4>After being placed into slavery, Equiano is first assigned to Virginia, and is given a new name along the way.</h4><p><i>\"The white men had some spell or magic they put in the water when they liked in order to stop the vessel. I was exceedingly amazed at this account, and really thought they were spirits.\"</i><br>(Equiano, 77)</p>"},
 
       {latLng: [51.5072, -0.1275], name: 'London', style: {fill: '#7D26CD', r:10, opacity:0.75},
-        info: "<h1>London, 1767-1797</h1><h4>After arriving as a slave (in 1756), Equiano returns to work for Dr. Charles Irving. Later he marries Susanna Cullen (1792) and passes away here (1797).</h4><p><i>\"\"</i><br></p>"},
+        info: "<h1>London, 1767-1797</h1><h4>After arriving as a slave (in 1756), Equiano returns to work for Dr. Charles Irving. Later he marries Susanna Cullen (1792) and passes away here (1797).</h4><p><i>\"In February 1768 I hired myself to Dr. Charles Irving, in Pall-mall, so celebrated for his successful experiments in making sea water fresh; and here I had plenty of hair-dressing to improve my hand. This gentleman was an excellent master; he was exceedingly kind and good tempered; and allowed me in the evenings to attend my schools, which I esteemed a great blessing; therefore I thanked God and him for it, and used all my diligence to improve the opportunity.\"</i><br>(Equiano, 97)</p>"},
 
       {latLng: [52.3167, 5.5500], name: 'Holland', style: {fill: '#7D26CD'},
         info: "<h1>Holland, 1757</h1><h4>Equiano travels as a slave.</h4><p><i>\"I remained in this ship a considerable time, during which we made several cruises, and visited a variety of places: among others we were twice in Holland, and brought over several persons of distinction from it, whose names I do not now remember.\"</i><br>(Equiano, 112)</p>"},
@@ -99,10 +102,10 @@ $(document).ready(function(){
         info: "<h1>Scotland, 1758</h1><h4>Equiano travels as a slave.</h4><p><i>\"Sometime afterwards the ship went to Leith in Scotland, and from thence to the Orkneys, where I was surprised in seeing scarcely any night: and from thence we sailed with a great fleet, full of soldiers, for England.\"</i><br>(Equiano, 113)</p>"},
 
       {latLng: [36.1430, -5.3530], name: 'Gibraltar', style: {fill: '#7D26CD'},
-        info: "<h1>Gibraltar, 1759</h1><h4>Equiano travels as a slave.</h4><p><i>\"When I came to Spithead, I found we were destined for the Mediterranean, with a large fleet, which was now ready to put to sea. We only waited for the arrival of the admiral, who soon came on board; and about the begining of the spring 1759, having weighed anchor, and got under way, failed for the Mediterranean; and in eleven days, from the Land's End, we got to Gibraltar. While we were here I used to be often on shore, and got various fruits in great plenty, and very cheap.\"</i><br>(Equiano, 137)</p>"},
+        info: "<h1>Gibraltar, 1760</h1><h4>Equiano travels as a slave.</h4><p><i>\"When I came to Spithead, I found we were destined for the Mediterranean, with a large fleet, which was now ready to put to sea. We only waited for the arrival of the admiral, who soon came on board; and about the begining of the spring 1759, having weighed anchor, and got under way, failed for the Mediterranean; and in eleven days, from the Land's End, we got to Gibraltar. While we were here I used to be often on shore, and got various fruits in great plenty, and very cheap.\"</i><br>(Equiano, 137)</p>"},
 
       {latLng: [45.0000, -63.0000], name: 'Nova Scotia', style: {fill: '#7D26CD'},
-        info: "<h1>Nova Scotia, 1760</h1><h4>Equiano travels as a slave.</h4><p><i>\"We were here joined by different men of war and transport ships with soldiers; after which, our fleet being increased to a prodigious number of ships of all kinds, we sailed for Cape Breton in Nova Scotia. We had the good and gallant General Wolfe on board our ship, whose affability made him highly esteemed and beloved by all the men.\"</i><br>(Equiano, 121)</p>"},
+        info: "<h1>Nova Scotia, 1759</h1><h4>Equiano travels as a slave.</h4><p><i>\"We were here joined by different men of war and transport ships with soldiers; after which, our fleet being increased to a prodigious number of ships of all kinds, we sailed for Cape Breton in Nova Scotia. We had the good and gallant General Wolfe on board our ship, whose affability made him highly esteemed and beloved by all the men.\"</i><br>(Equiano, 121)</p>"},
 
       {latLng: [18.1824, -77.3218], name: 'Jamaica', style: {fill: '#7D26CD'},
         info: "<h1>Jamaica, 1770</h1><h4>Equiano returns here a free man after briefly passing through while enslaved.</h4><p><i>\"I have since often seen in Jamaica and other islands free men, whom I have known in America, thus villainously trepanned and held in bondage.\"</i><br>(Equiano, 249)</p>"},
@@ -111,7 +114,7 @@ $(document).ready(function(){
         info: "<h1>Georgia, 1762</h1><h4>Equiano travels as a slave.</h4><p><i>\"When we got to our destined places, Georgia and Charles Town, I expected I should have an opportunity of selling my little property to advantage: but here, particularly in Charles Town, I met with buyers, white men, who imposed on me as in other places. Notwithstanding, I was resolved to have fortitude; thinking no lot or trial is too hard when kind Heaven is the rewarder.\"</i><br>(Equiano, 254)</p>"},
 
       {latLng: [34.0000, -81.0000], name: 'South Carolina', style: {fill: '#7D26CD'},
-        info: "<h1>South Carolina</h1><h4>Equiano travels as a slave.</h4><p><i>\"My captain also said he could get much more than a hundred guineas for me in Carolina. This I knew to be a fact; for the gentleman that wanted to buy me came off several times on board of us, and spoke to me to live with him, and said he would use me well.\"</i><br>(Equiano, 256)</p>"},
+        info: "<h1>South Carolina, 1761</h1><h4>Equiano travels as a slave.</h4><p><i>\"My captain also said he could get much more than a hundred guineas for me in Carolina. This I knew to be a fact; for the gentleman that wanted to buy me came off several times on board of us, and spoke to me to live with him, and said he would use me well.\"</i><br>(Equiano, 256)</p>"},
 
       {latLng: [39.9500, -75.1667], name: 'Philadelphia', style: {fill: '#7D26CD', r:10, opacity:0.75},
         info: "<h1>Philadelphia, 1763-1766</h1><h4>Equiano is purchased by Robert King, and after three years saves enough money to buy his own freedom.</h4><p><i>\"By his kind treatment I did at last endeavour to compose myself; and with fortitude, though moneyless, determined to face whatever fate had decreed for me. Mr. King soon asked me what I could do; and at the same time said he did not mean to treat me as a common slave.\"</i><br>(Equiano, 195)</p>"},
